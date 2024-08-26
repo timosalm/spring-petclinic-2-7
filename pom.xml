@@ -8,12 +8,14 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.1.13</version>
+    <version>3.2.9</version>
   </parent>
   <name>petclinic</name>
 
   <properties>
     <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
 
     <!-- Generic properties -->
     <java.version>17</java.version>
@@ -29,15 +31,6 @@
     <spring-format.version>0.0.31</spring-format.version>
 
   </properties>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-        <version>8.0.30</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
