@@ -8,6 +8,7 @@ build/*
 .factorypath
 .attach_pid*
 .idea
+.advisor
 *.iml
 /target
 .sts4-cache/
